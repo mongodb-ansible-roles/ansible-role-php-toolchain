@@ -1,0 +1,25 @@
+---
+dependencies:
+  - role: ansible-role-toolchain
+    vars:
+      toolchain_url: "{{ php_toolchain_url }}"
+      toolchain_version: "{{ php_toolchain_sha }}"
+      toolchain_final_dest: "{{ php_toolchain_final_dest }}"
+galaxy_info:
+  author: MongoDB
+  role_name: php-toolchain
+  description: Installs the php toolchain
+  license: Apache
+  min_ansible_version: 2.8
+  platforms:
+    - name: el
+      versions:
+        - 7
+    - name: debian
+      versions:
+        - stretch
+    - name: ubuntu
+      versions:
+        - xenial
+  galaxy_tags:
+    - php-toolchain

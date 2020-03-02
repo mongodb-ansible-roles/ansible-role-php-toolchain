@@ -1,0 +1,17 @@
+---
+- hosts: ubi7
+  name: Prepare
+  tasks:
+    - name: Install packages
+      yum:
+        name:
+          - sudo
+          - tar
+        state: present
+
+- hosts: debian9
+  name: Prepare
+  gather_facts: false
+  tasks:
+    - name: "Install python"
+      raw: apt-get -y update && apt-get -y install python3 sudo

@@ -1,0 +1,21 @@
+---
+- name: Remove old toolchain
+  become: true
+  file:
+    path: "{{ php_toolchain_final_dest }}"
+    state: absent
+  when:
+    - toolchain_archive_contents.changed
+
+- name: Move php directory from tmp to {{ php_toolchain_final_dest }}
+  become: true
+  command: mv /tmp/php {{ php_toolchain_final_dest }}
+  when:
+    - toolchain_archive_contents.changed
+
+  # This is using shell because the copy and template module fail to run on a static host
+  # with a "host cannot be found error"
+- name: Create version file at {{ php_toolchain_final_dest }}/toolchain_version
+  become: true
+  shell: echo {{ php_toolchain_sha }} > {{ php_toolchain_final_dest }}/toolchain_version
+  changed_when: false

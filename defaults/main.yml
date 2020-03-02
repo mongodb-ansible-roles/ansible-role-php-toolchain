@@ -1,0 +1,4 @@
+---
+php_toolchain_final_dest: /opt/php
+php_toolchain_sha: ""
+php_toolchain_url: https://s3.amazonaws.com/boxes.10gen.com/build/toolchain-drivers/mongo-php-driver/php-toolchain-{{ distro }}{{ ansible_distribution_version }}-{{ architecture }}-37dbfb7b800408897e2dbb6c85ae9e67ce6f7c49.tar.gz
