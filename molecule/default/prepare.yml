@@ -13,5 +13,5 @@
   name: Prepare
   gather_facts: false
   tasks:
-    - name: "Install python"
+    - name: Install python
       raw: apt-get -y update && apt-get -y install python3 sudo

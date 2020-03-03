@@ -6,7 +6,8 @@
       include_role:
         name: "ansible-role-php-toolchain"
       vars:
-        php_toolchain_url: https://s3.amazonaws.com/boxes.10gen.com/build/toolchain-drivers/mongo-php-driver/php-toolchain-rhel70-64bit-37dbfb7b800408897e2dbb6c85ae9e67ce6f7c49.tar.gz
+        php_toolchain_url: https://ansible-molecule-test.s3.amazonaws.com/test_phptoolchain.tar.gz
+        php_toolchain_sha: test_php_sha
 
 - name: Converge
   hosts: debian9
@@ -15,7 +16,8 @@
       include_role:
         name: "ansible-role-php-toolchain"
       vars:
-        php_toolchain_url: https://s3.amazonaws.com/boxes.10gen.com/build/toolchain-drivers/mongo-php-driver/php-toolchain-debian92-64bit-37dbfb7b800408897e2dbb6c85ae9e67ce6f7c49.tar.gz
+        php_toolchain_url: https://ansible-molecule-test.s3.amazonaws.com/test_phptoolchain.tar.gz
+        php_toolchain_sha: test_php_sha
 
 - name: Converge
   hosts: ubuntu1604
@@ -24,4 +26,5 @@
       include_role:
         name: "ansible-role-php-toolchain"
       vars:
-        php_toolchain_url: https://s3.amazonaws.com/boxes.10gen.com/build/toolchain-drivers/mongo-php-driver/php-toolchain-ubuntu1604-64bit-37dbfb7b800408897e2dbb6c85ae9e67ce6f7c49.tar.gz
+        php_toolchain_url: https://ansible-molecule-test.s3.amazonaws.com/test_phptoolchain.tar.gz
+        php_toolchain_sha: test_php_sha
