@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/compare/v1.0.0...v1.0.1) (2020-03-03)
+
+
+### Bug Fixes
+
+* Ignore certs on debian9 test ([ca2fcb3](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/commit/ca2fcb30dc64fd68b3d02a216e79d104a7e05a9c))
+
 # 1.0.0 (2020-03-02)
 
 
