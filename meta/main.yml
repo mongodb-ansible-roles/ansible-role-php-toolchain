@@ -5,6 +5,7 @@ dependencies:
       toolchain_url: "{{ php_toolchain_url }}"
       toolchain_version: "{{ php_toolchain_sha }}"
       toolchain_final_dest: "{{ php_toolchain_final_dest }}"
+      toolchain_validate_certs: "{{ php_toolchain_validate_certs }}"
 galaxy_info:
   author: MongoDB
   role_name: php-toolchain
