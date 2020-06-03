@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/compare/v1.0.2...v1.1.0) (2020-06-03)
+
+
+### Features
+
+* **BUILD-11337:** add ubuntu1604 to vars/main.yml ([d1a3415](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/commit/d1a341521557042aa94f70ac5ff3039541a40e22))
+
 ## [1.0.2](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/compare/v1.0.1...v1.0.2) (2020-03-03)
 
 
