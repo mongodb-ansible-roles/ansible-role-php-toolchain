@@ -26,5 +26,4 @@
       include_role:
         name: "ansible-role-php-toolchain"
       vars:
-        php_toolchain_url: https://ansible-molecule-test.s3.amazonaws.com/test_phptoolchain.tar.gz
-        php_toolchain_sha: test_php_sha
+        php_toolchain_sha: 37dbfb7b800408897e2dbb6c85ae9e67ce6f7c49
