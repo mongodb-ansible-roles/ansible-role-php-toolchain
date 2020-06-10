@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/compare/v1.1.0...v1.1.1) (2020-06-10)
+
+
+### Bug Fixes
+
+* **BUILD-11337:** fix toolchain url ([ec8f87f](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/commit/ec8f87f5e033d6af699f11485edeea158af630db))
+
 # [1.1.0](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/compare/v1.0.2...v1.1.0) (2020-06-03)
 
 
