@@ -2,6 +2,8 @@
 distro_name: "{{ ansible_distribution }}{{ ansible_distribution_major_version }}"
 distro_dict:
   Debian9: debian9
+  Debian10: debian10
+  Debian11: debian11
   RedHat8: rhel80
   RedHat7: rhel70
   RedHat6: rhel62
