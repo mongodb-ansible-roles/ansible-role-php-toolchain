@@ -22,5 +22,4 @@ jobs:
       - run: molecule test --all
 name: Molecule Test
 'on':
-  - push
   - pull_request
