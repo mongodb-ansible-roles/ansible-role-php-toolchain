@@ -1,15 +1,5 @@
 ---
 - name: Converge
-  hosts: ubi7
-  tasks:
-    - name: "Include ansible-role-php-toolchain"
-      include_role:
-        name: "ansible-role-php-toolchain"
-      vars:
-        php_toolchain_url: https://ansible-molecule-test.s3.amazonaws.com/test_phptoolchain.tar.gz
-        php_toolchain_sha: test_php_sha
-
-- name: Converge
   hosts: debian9
   tasks:
     - name: "Include ansible-role-php-toolchain"

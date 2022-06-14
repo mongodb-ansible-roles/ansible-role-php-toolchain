@@ -1,14 +1,4 @@
 ---
-- hosts: ubi7
-  name: Prepare
-  tasks:
-    - name: Install packages
-      yum:
-        name:
-          - sudo
-          - tar
-        state: present
-
 - hosts: debian9
   name: Prepare
   gather_facts: false
