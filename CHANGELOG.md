@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/compare/v1.1.1...v1.2.0) (2022-06-14)
+
+
+### Bug Fixes
+
+* fix molecule tests ([#4](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/issues/4)) ([f3793bf](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/commit/f3793bfbddadbd169e34c8d34705650c0afa7368))
+* fix semantic-release ([#5](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/issues/5)) ([6c155c9](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/commit/6c155c9375a22fa7b524ca8a832bbdd84a3446df))
+
+
+### Features
+
+* add Debian10, 11 to vars/main.yml ([#3](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/issues/3)) ([c5ffef6](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/commit/c5ffef6cdd832735344ab1df0e4f43ad4a9409d6))
+
 ## [1.1.1](https://github.com/mongodb-ansible-roles/ansible-role-php-toolchain/compare/v1.1.0...v1.1.1) (2020-06-10)
 
 
