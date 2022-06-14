@@ -4,9 +4,6 @@ dependency:
 driver:
   name: docker
 platforms:
-  - name: ubi7
-    image: registry.redhat.io/ubi7
-    pre_build_image: true
   - name: debian9
     image: debian:9
     pre_build_image: true
